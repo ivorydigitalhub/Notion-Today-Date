@@ -30,7 +30,7 @@
     <div id="lbl"></div>
 </body>
 <script>
-    var weekday = new Array(7);
+   var weekday = new Array(7);
     weekday[0] = "Sunday";
     weekday[1] = "Monday";
     weekday[2] = "Tuesday";
@@ -43,7 +43,7 @@
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
-    var date = dayOfWeek+" " + (today.getMonth()+1) + "/" +today.getDate() +'/'+today.getFullYear()  ;
+    var date = dayOfWeek+" " + today.getDate() + "/" +(today.getMonth()+1) +'/'+today.getFullYear()  ;
 
     var greet;
 
